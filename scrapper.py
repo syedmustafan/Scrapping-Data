@@ -10,9 +10,11 @@ search.send_keys("test")
 search.send_keys(Keys.RETURN)
 
 main = driver.find_element_by_id("main")
+
 articles = main.find_elements_by_tag_name("article")
 for article in articles:
     header = article.find_element_by_class_name("entry-meta")
     print(header.text)
     print("\n")
+
 
