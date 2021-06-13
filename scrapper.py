@@ -1,3 +1,7 @@
+#Locating HTML Elements
+"""
+This program will scrap text data obtained from the URL given in search bar. 
+"""
 from re import search
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
