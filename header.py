@@ -17,3 +17,4 @@ for country in li:
     print(country.text)
     print("test222")
     print("COmmit 1")
+    print("COmmit 2")
