@@ -18,3 +18,5 @@ for country in li:
     print("test222")
     print("COmmit 1")
     print("COmmit 2")
+    print("COmmit 3")
+    print("COmiit 4")
